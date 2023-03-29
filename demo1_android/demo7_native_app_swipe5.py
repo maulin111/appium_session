@@ -6,7 +6,6 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 """Swipe using appium default method with 50%"""
 
-
 class AppiumConfig:
     @pytest.fixture(scope="function", autouse=True)
     def handle_app_launch(self):
